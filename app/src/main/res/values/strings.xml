@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="mlText">MACHINE\nLEARNING</string>
+    <string name="km">KNOW MORE</string>
+    <string name="blockchain">BLOCKCHAIN</string>
+    <string name="ai">Artificial\nIntelligence</string>
+    <string name="webdev">WEB\nDEVELOPMENT</string>
+    <string name="contact_us">📞 CONTACT US</string>
+    <string name="aiText">ARTIFICIAL\nINTELLIGENCE</string>
+    <string name="androidAppDev">ANDROID\nAPP\nDEVELOPMENT</string>
+    <string name="iosAppDev">IOS\nAPP\nDEVELOPMENT</string>
+    <string name="welcomeText">WELCOME\nTO\nRACHIT\nKNOWLEDGE\nHUB</string>
+    <string name="let_s_go">Let\'s Go</string>
+</resources>

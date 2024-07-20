@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    android:orientation="vertical"
+    tools:context=".Screen2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:id="@+id/androidAppDevIMG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/android"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/androidAppDev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black"
+                    android:fontFamily="serif-monospace"
+                    android:text="@string/km"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/androidAppDev" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/iosAppDevIMG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ios"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/iosAppDev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black"
+                    android:fontFamily="serif-monospace"
+                    android:text="@string/km"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/iosAppDev" />
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp"
+                tools:ignore="NestedWeights">
+
+
+                <ImageView
+                    android:id="@+id/webDevIMG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/webdev"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/webDev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black"
+                    android:fontFamily="serif-monospace"
+                    android:text="@string/km"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/webdev" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/aiIMG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ai"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+                <Button
+                    android:id="@+id/ai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black"
+                    android:fontFamily="serif-monospace"
+                    android:text="@string/km"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="@string/aiText" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            tools:ignore="NestedWeights">
+
+
+            <ImageView
+                android:id="@+id/blockchainIMG"
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"
+                android:src="@drawable/blockchain"
+                android:contentDescription="@string/blockchain" />
+
+            <Button
+                android:id="@+id/blockchain"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:background="@color/black"
+                android:text="@string/km" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/blockchain" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp">
+
+
+            <ImageView
+                android:id="@+id/mlIMG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ml"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/ml"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:background="@color/black"
+                android:text="@string/km" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/mlText" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/callButton"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us"
+            android:background="#111111" />
+
+
+</LinearLayout>
